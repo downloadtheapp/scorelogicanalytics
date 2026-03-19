@@ -1,0 +1,900 @@
+<!doctype html>
+<html data-page="contact.html" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact | ScoreLogic Analytics</title>
+		<meta
+			name="description"
+			content="Business contact details and support form for ScoreLogic Analytics."
+		/>
+		<meta property="og:title" content="Contact - ScoreLogic Analytics" />
+		<meta property="og:image" content="assets/img/hero_banner.webp" />
+		<link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml" />
+		<script defer src="assets/js/site.js"></script>
+		<link rel="stylesheet" href="assets/css/tailwind.css" />
+		<link rel="stylesheet" href="assets/css/chrome.css" />
+		<link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml" />
+	</head>
+	<body
+		class="bg-slate-950 text-slate-300 font-sans antialiased bg-noise flex flex-col min-h-screen"
+	>
+		<header class="site-header bordered-bottom noise-bg">
+			<div class="header-container">
+				<a href="index.html" class="brand">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+						<polygon
+							points="11.5,4 21.5,4 10,12"
+							fill="currentColor"
+							opacity="0.15"
+						/>
+						<polygon
+							points="2.5,20 18.5,20 20,12"
+							fill="currentColor"
+							opacity="0.15"
+						/>
+						<polyline
+							points="5.5,4 2.5,20 18.5,20 20,12 10,12 11.5,4 21.5,4"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linejoin="round"
+							stroke-linecap="round"
+						/>
+						<g fill="currentColor">
+							<circle cx="5.5" cy="4" r="1.75" />
+							<circle cx="2.5" cy="20" r="1.75" />
+							<circle cx="18.5" cy="20" r="1.75" />
+							<circle cx="20" cy="12" r="1.75" />
+							<circle cx="10" cy="12" r="1.75" />
+							<circle cx="11.5" cy="4" r="1.75" />
+							<circle cx="21.5" cy="4" r="1.75" />
+						</g>
+					</svg>
+					<span class="brand-name">ScoreLogic Analytics</span>
+				</a>
+				<div class="header-right">
+					<a href="mailto:contact@scorelogicanalytics.com" class="header-email"
+						>contact@scorelogicanalytics.com</a
+					>
+					<nav class="desktop-nav">
+						<a href="index.html">Home</a>
+						<a href="about.html">About</a>
+						<a href="features.html">Features</a>
+						<a href="contact.html">Contact</a>
+					</nav>
+					<button
+						id="mobile-menu-toggle"
+						class="menu-toggle"
+						aria-label="Open menu"
+					>
+						<svg
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							fill="none"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<path d="M4 6h16M4 12h16M4 18h16"></path>
+						</svg>
+					</button>
+				</div>
+			</div>
+			<div id="mobile-menu" class="mobile-menu-right">
+				<div class="mobile-menu-header">
+					<span class="brand-name">Menu</span>
+					<button
+						id="mobile-menu-close"
+						class="menu-toggle"
+						aria-label="Close menu"
+					>
+						<svg
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							fill="none"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<path d="M18 6L6 18M6 6l12 12"></path>
+						</svg>
+					</button>
+				</div>
+				<nav class="mobile-nav">
+					<a href="index.html">Home</a>
+					<a href="about.html">About</a>
+					<a href="features.html">Features</a>
+					<a href="contact.html">Contact</a>
+				</nav>
+				<div class="mobile-contact">
+					<a href="mailto:contact@scorelogicanalytics.com"
+						>contact@scorelogicanalytics.com</a
+					>
+				</div>
+			</div>
+			<div id="mobile-overlay" class="mobile-overlay"></div>
+		</header>
+
+		<main class="flex-grow">
+			<!-- Hero Section -->
+			<section
+				id="hero"
+				class="relative pt-32 pb-24 px-6 lg:px-12 overflow-hidden border-b border-slate-800"
+			>
+				<div class="absolute inset-0 z-0 opacity-20">
+					<img
+						src="assets/img/hero_banner.webp"
+						alt="Sports stadium with digital data"
+						class="w-full h-full object-cover"
+						loading="lazy"
+					/>
+					<div
+						class="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-950/90 to-slate-950"
+					></div>
+				</div>
+				<div class="relative z-1 max-w-4xl mx-auto text-center">
+					<h1
+						class="font-serif-accent text-4xl md:text-6xl text-white font-bold leading-tight mb-6 glow-text"
+					>
+						Connect with <span class="text-emerald-400">ScoreLogic</span>
+					</h1>
+					<p
+						class="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed"
+					>
+						Whether you're looking for technical support, enterprise data
+						integration, or simply want to explore our live predictive insights,
+						our team is ready to assist.
+					</p>
+					<div
+						class="flex flex-col sm:flex-row items-center justify-center gap-4"
+					>
+						<a
+							href="#direct-message"
+							class="px-8 py-3.5 rounded-md bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold transition-all glow-border w-full sm:w-auto text-center"
+						>
+							Download app
+						</a>
+						<a
+							href="features.html"
+							class="px-8 py-3.5 rounded-md border border-slate-700 hover:border-emerald-400 text-white font-semibold transition-all w-full sm:w-auto text-center"
+						>
+							Explore Features
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<!-- Contact Channels Section -->
+			<section
+				id="contact-channels"
+				class="py-20 px-6 lg:px-12 bg-slate-900/40"
+			>
+				<div class="max-w-7xl mx-auto">
+					<div class="text-center mb-16">
+						<h2
+							class="font-serif-accent text-3xl md:text-4xl text-white font-bold mb-4"
+						>
+							How Can We Help?
+						</h2>
+						<p class="text-slate-400 max-w-2xl mx-auto">
+							Select the right channel to get your questions answered quickly by
+							our dedicated sports data specialists.
+						</p>
+					</div>
+					<div class="grid md:grid-cols-3 gap-8">
+						<!-- Card 1 -->
+						<div
+							class="bg-slate-900 border border-slate-800 rounded-md p-8 hover:border-emerald-500/50 transition-colors group relative overflow-hidden"
+						>
+							<div
+								class="absolute top-0 right-0 w-32 h-32 bg-emerald-500/5 rounded-full blur-2xl group-hover:bg-emerald-500/10 transition-all"
+							></div>
+							<svg
+								class="w-8 h-8 text-emerald-400 mb-6"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<path
+									d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+								></path>
+							</svg>
+							<h3 class="text-xl text-white font-bold mb-3 font-serif-accent">
+								General Support
+							</h3>
+							<p class="text-slate-400 mb-6 text-sm leading-relaxed">
+								Having trouble with your dashboard or account? Reach out to our
+								24/7 technical support team for immediate assistance.
+							</p>
+							<a
+								href="#direct-message"
+								class="text-emerald-400 hover:text-emerald-300 text-sm font-semibold inline-flex items-center gap-2"
+							>
+								Contact Support
+								<svg
+									class="w-4 h-4"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+								>
+									<path d="M5 12h14M12 5l7 7-7 7" />
+								</svg>
+							</a>
+						</div>
+						<!-- Card 2 -->
+						<div
+							class="bg-slate-900 border border-slate-800 rounded-md p-8 hover:border-emerald-500/50 transition-colors group relative overflow-hidden"
+						>
+							<div
+								class="absolute top-0 right-0 w-32 h-32 bg-emerald-500/5 rounded-full blur-2xl group-hover:bg-emerald-500/10 transition-all"
+							></div>
+							<svg
+								class="w-8 h-8 text-emerald-400 mb-6"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+							</svg>
+							<h3 class="text-xl text-white font-bold mb-3 font-serif-accent">
+								Data Integration
+							</h3>
+							<p class="text-slate-400 mb-6 text-sm leading-relaxed">
+								Looking to integrate our API into your custom sports platform?
+								Talk to our engineering team for documentation and access keys.
+							</p>
+							<a
+								href="#direct-message"
+								class="text-emerald-400 hover:text-emerald-300 text-sm font-semibold inline-flex items-center gap-2"
+							>
+								Request API Access
+								<svg
+									class="w-4 h-4"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+								>
+									<path d="M5 12h14M12 5l7 7-7 7" />
+								</svg>
+							</a>
+						</div>
+						<!-- Card 3 -->
+						<div
+							class="bg-slate-900 border border-slate-800 rounded-md p-8 hover:border-emerald-500/50 transition-colors group relative overflow-hidden"
+						>
+							<div
+								class="absolute top-0 right-0 w-32 h-32 bg-emerald-500/5 rounded-full blur-2xl group-hover:bg-emerald-500/10 transition-all"
+							></div>
+							<svg
+								class="w-8 h-8 text-emerald-400 mb-6"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+								<circle cx="9" cy="7" r="4"></circle>
+								<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+								<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+							</svg>
+							<h3 class="text-xl text-white font-bold mb-3 font-serif-accent">
+								Enterprise Solutions
+							</h3>
+							<p class="text-slate-400 mb-6 text-sm leading-relaxed">
+								For professional teams, coaches, and sports organizations
+								needing custom predictive analytics and deep player metrics.
+							</p>
+							<a
+								href="#enterprise-booking"
+								class="text-emerald-400 hover:text-emerald-300 text-sm font-semibold inline-flex items-center gap-2"
+							>
+								Book a Demo
+								<svg
+									class="w-4 h-4"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+								>
+									<path d="M5 12h14M12 5l7 7-7 7" />
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Direct Message & Info Section -->
+			<section
+				id="direct-message"
+				class="py-20 px-6 lg:px-12 border-t border-slate-800 relative"
+			>
+				<div
+					class="absolute top-0 left-0 w-full h-full overflow-hidden opacity-10 pointer-events-none"
+				>
+					<img
+						src="assets/img/stats_background.webp"
+						alt="Abstract stats background"
+						class="w-full h-full object-cover"
+						loading="lazy"
+					/>
+				</div>
+				<div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 relative z-1">
+					<!-- Contact Form -->
+					<div
+						class="bg-slate-900 border border-slate-800 rounded-md p-8 shadow-2xl"
+					>
+						<h2 class="font-serif-accent text-3xl text-white font-bold mb-6">
+							Send Us a Message
+						</h2>
+						<p class="text-slate-400 mb-8 text-sm">
+							Fill out the form below and our analytics support team will get
+							back to you within 24 hours.
+						</p>
+
+						<form class="contact-form" action="thanks.html" method="get">
+							<div class="contact-form-grid">
+								<div class="contact-field">
+									<label for="contact-name">Full name</label>
+									<input
+										id="contact-name"
+										name="name"
+										type="text"
+										placeholder="Your full name"
+										required
+									/>
+								</div>
+								<div class="contact-field">
+									<label for="contact-email">Work email</label>
+									<input
+										id="contact-email"
+										name="email"
+										type="email"
+										placeholder="name@company.com"
+										required
+									/>
+								</div>
+								<div class="contact-field">
+									<label for="contact-phone">Phone</label>
+									<input
+										id="contact-phone"
+										name="phone"
+										type="tel"
+										placeholder="+91 98765 43210"
+									/>
+								</div>
+								<div class="contact-field">
+									<label for="contact-company">Organization</label>
+									<input
+										id="contact-company"
+										name="company"
+										type="text"
+										placeholder="Club, team, academy, or company"
+									/>
+								</div>
+								<div class="contact-field contact-field--full">
+									<label for="contact-subject">Subject</label>
+									<input
+										id="contact-subject"
+										name="subject"
+										type="text"
+										placeholder="How can we help?"
+										required
+									/>
+								</div>
+								<div class="contact-field contact-field--full">
+									<label for="contact-message">Message</label>
+									<textarea
+										id="contact-message"
+										name="message"
+										rows="6"
+										placeholder="Tell us about your analytics goals, support issue, or integration request."
+										required
+									></textarea>
+								</div>
+							</div>
+							<div class="contact-form-actions">
+								<button type="submit" class="btn-primary contact-form-submit">
+									Send message
+								</button>
+								<p class="contact-form-note">
+									By sending this form, you agree to our
+									<a href="privacy-policy.html">Privacy Policy</a> and
+									<a href="terms-conditions.html">Terms</a>.
+								</p>
+							</div>
+						</form>
+					</div>
+
+					<!-- Contact Details -->
+					<div class="flex flex-col justify-center">
+						<h2 class="font-serif-accent text-3xl text-white font-bold mb-8">
+							Contact Information
+						</h2>
+						<div class="space-y-8">
+							<!-- Address -->
+							<div class="flex items-start gap-4 group">
+								<div
+									class="w-12 h-12 rounded-md bg-slate-900 border border-slate-700 flex items-center justify-center flex-shrink-0 group-hover:border-emerald-400 transition-colors"
+								>
+									<svg
+										class="w-5 h-5 text-emerald-400"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<path
+											d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+										></path>
+										<circle cx="12" cy="10" r="3"></circle>
+									</svg>
+								</div>
+								<div>
+									<h4 class="text-white font-bold mb-1">Headquarters</h4>
+									<address
+										class="text-slate-400 not-italic leading-relaxed text-sm"
+									>
+										Unit 402, TechWeb Centre, New Link Road<br />
+										Oshiwara, Andheri West<br />
+										Mumbai, Maharashtra 400053<br />
+										India
+									</address>
+									<a
+										href="https://www.google.com/maps/search/?api=1&query=Mumbai%2C%20Maharashtra%2C%20400053%2C%20India"
+										target="_blank"
+										rel="noopener noreferrer"
+										class="text-emerald-400 text-sm mt-2 inline-block hover:underline"
+									>
+										View on Google Maps
+									</a>
+								</div>
+							</div>
+
+							<!-- Phone -->
+							<div class="flex items-start gap-4 group">
+								<div
+									class="w-12 h-12 rounded-md bg-slate-900 border border-slate-700 flex items-center justify-center flex-shrink-0 group-hover:border-emerald-400 transition-colors"
+								>
+									<svg
+										class="w-5 h-5 text-emerald-400"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<path
+											d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+										></path>
+									</svg>
+								</div>
+								<div>
+									<h4 class="text-white font-bold mb-1">Phone</h4>
+									<p class="text-slate-400 text-sm mb-1">
+										Mon-Fri from 9am to 6pm IST
+									</p>
+									<a
+										href="tel:+919820134912"
+										class="text-emerald-400 text-lg font-semibold hover:text-emerald-300 transition-colors"
+									>
+										+91 98201 34912
+									</a>
+								</div>
+							</div>
+
+							<!-- Email -->
+							<div class="flex items-start gap-4 group">
+								<div
+									class="w-12 h-12 rounded-md bg-slate-900 border border-slate-700 flex items-center justify-center flex-shrink-0 group-hover:border-emerald-400 transition-colors"
+								>
+									<svg
+										class="w-5 h-5 text-emerald-400"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<path
+											d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+										></path>
+										<polyline points="22,6 12,13 2,6"></polyline>
+									</svg>
+								</div>
+								<div>
+									<h4 class="text-white font-bold mb-1">Email</h4>
+									<p class="text-slate-400 text-sm mb-1">
+										Drop us a line anytime
+									</p>
+									<a
+										href="mailto:contact@scorelogicanalytics.com"
+										class="text-emerald-400 text-lg font-semibold hover:text-emerald-300 transition-colors"
+									>
+										contact@scorelogicanalytics.com
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div
+							class="mt-10 p-6 bg-slate-900 border border-slate-800 rounded-md flex items-center gap-4"
+						>
+							<img
+								src="assets/img/dashboard_preview.webp"
+								alt="Dashboard glowing interface"
+								class="w-16 h-16 object-cover rounded-md opacity-70"
+								loading="lazy"
+							/>
+							<div>
+								<h5 class="text-white font-bold text-sm">
+									Experience the Data
+								</h5>
+								<p class="text-slate-400 text-xs mt-1">
+									Get live match insights instantly.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Location / HQ Image Section -->
+			<section
+				id="location-hq"
+				class="py-20 px-6 lg:px-12 bg-slate-950 border-t border-slate-800"
+			>
+				<div
+					class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12"
+				>
+					<div
+						class="w-full lg:w-1/2 relative rounded-md overflow-hidden border border-slate-800"
+					>
+						<img
+							src="assets/img/contact_location_map.webp"
+							alt="Glowing digital map showing Mumbai location"
+							class="w-full h-auto object-cover opacity-80"
+							loading="lazy"
+						/>
+						<div
+							class="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent"
+						></div>
+						<div class="absolute bottom-6 left-6">
+							<span
+								class="px-3 py-1 bg-emerald-500/20 text-emerald-400 text-xs font-bold uppercase tracking-wider rounded border border-emerald-500/30 backdrop-blur-md"
+							>
+								Global Headquarters
+							</span>
+						</div>
+					</div>
+					<div class="w-full lg:w-1/2">
+						<h2
+							class="font-serif-accent text-3xl md:text-4xl text-white font-bold mb-6"
+						>
+							Based in the Heart of
+							<span class="text-emerald-400">India's Tech Hub</span>
+						</h2>
+						<p class="text-slate-400 mb-6 leading-relaxed">
+							Our Mumbai headquarters serves as the central node for ScoreLogic
+							Analytics. Here, our data scientists, engineers, and sports
+							experts collaborate to build the predictive models that drive your
+							dashboard insights.
+						</p>
+						<ul class="space-y-4">
+							<li class="flex items-center gap-3">
+								<svg
+									class="w-5 h-5 text-emerald-400"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<circle cx="12" cy="12" r="10"></circle>
+									<polyline points="12 6 12 12 16 14"></polyline>
+								</svg>
+								<span class="text-slate-300 text-sm"
+									>Operating Hours: 9:00 AM – 6:00 PM (IST)</span
+								>
+							</li>
+							<li class="flex items-center gap-3">
+								<svg
+									class="w-5 h-5 text-emerald-400"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path
+										d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"
+									></path>
+									<polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+									<line x1="12" y1="22.08" x2="12" y2="12"></line>
+								</svg>
+								<span class="text-slate-300 text-sm"
+									>Dedicated Server Nodes Maintained 24/7</span
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<!-- Quick FAQ Section -->
+			<section
+				id="support-faq"
+				class="py-20 px-6 lg:px-12 bg-slate-900/40 border-t border-slate-800"
+			>
+				<div class="max-w-4xl mx-auto">
+					<div class="text-center mb-12">
+						<h2
+							class="font-serif-accent text-3xl md:text-4xl text-white font-bold mb-4"
+						>
+							Frequently Asked Questions
+						</h2>
+						<p class="text-slate-400">
+							Quick answers to our most common contact and support inquiries.
+						</p>
+					</div>
+					<div class="space-y-4">
+						<!-- FAQ 1 -->
+						<div class="bg-slate-900 border border-slate-800 rounded-md p-6">
+							<h4
+								class="text-white font-bold mb-2 flex justify-between items-center"
+							>
+								How fast can I expect a reply?
+							</h4>
+							<p class="text-slate-400 text-sm leading-relaxed">
+								For standard inquiries via our contact form or email, we aim to
+								respond within 24 hours. Enterprise clients with SLA agreements
+								receive priority routing and dedicated account manager support.
+							</p>
+						</div>
+						<!-- FAQ 2 -->
+						<div class="bg-slate-900 border border-slate-800 rounded-md p-6">
+							<h4
+								class="text-white font-bold mb-2 flex justify-between items-center"
+							>
+								Do you offer in-person consultations?
+							</h4>
+							<p class="text-slate-400 text-sm leading-relaxed">
+								Yes. While most of our demonstrations and platform onboarding
+								take place virtually, professional sports organizations can
+								arrange in-person meetings at our Mumbai office or via site
+								visits upon request.
+							</p>
+						</div>
+						<!-- FAQ 3 -->
+						<div class="bg-slate-900 border border-slate-800 rounded-md p-6">
+							<h4
+								class="text-white font-bold mb-2 flex justify-between items-center"
+							>
+								Where can I find press or media resources?
+							</h4>
+							<p class="text-slate-400 text-sm leading-relaxed">
+								Members of the media looking for quotes, platform screenshots,
+								or data insights for sports journalism can contact our media
+								team directly at contact@scorelogicanalytics.com with the
+								subject line "Media Request".
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Enterprise Booking Section -->
+			<section
+				id="enterprise-booking"
+				class="py-20 px-6 lg:px-12 border-t border-slate-800 relative overflow-hidden"
+			>
+				<div
+					class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12"
+				>
+					<div class="w-full lg:w-1/2 order-2 lg:order-1">
+						<h2
+							class="font-serif-accent text-3xl md:text-4xl text-white font-bold mb-6"
+						>
+							Require a Tailored
+							<span class="text-emerald-400">Data Strategy?</span>
+						</h2>
+						<p class="text-slate-400 mb-8 leading-relaxed">
+							Our predictive models and performance tracking systems can be
+							customized for your specific league, sport, or organizational
+							needs. Let us show you how advanced analytics can give your team
+							the winning edge.
+						</p>
+						<ul class="space-y-4 mb-8">
+							<li class="flex items-center gap-3">
+								<div
+									class="w-6 h-6 rounded-full bg-emerald-500/20 flex items-center justify-center"
+								>
+									<svg
+										class="w-3 h-3 text-emerald-400"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="3"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<polyline points="20 6 9 17 4 12"></polyline>
+									</svg>
+								</div>
+								<span class="text-slate-300">Custom API Integrations</span>
+							</li>
+							<li class="flex items-center gap-3">
+								<div
+									class="w-6 h-6 rounded-full bg-emerald-500/20 flex items-center justify-center"
+								>
+									<svg
+										class="w-3 h-3 text-emerald-400"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="3"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<polyline points="20 6 9 17 4 12"></polyline>
+									</svg>
+								</div>
+								<span class="text-slate-300"
+									>White-label Dashboard Solutions</span
+								>
+							</li>
+							<li class="flex items-center gap-3">
+								<div
+									class="w-6 h-6 rounded-full bg-emerald-500/20 flex items-center justify-center"
+								>
+									<svg
+										class="w-3 h-3 text-emerald-400"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="3"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<polyline points="20 6 9 17 4 12"></polyline>
+									</svg>
+								</div>
+								<span class="text-slate-300"
+									>Dedicated Analytics Consultant</span
+								>
+							</li>
+						</ul>
+						<a
+							href="mailto:contact@scorelogicanalytics.com?subject=Enterprise%20Inquiry"
+							class="inline-block px-8 py-4 rounded-md bg-slate-800 hover:bg-slate-700 text-white font-semibold transition-colors border border-slate-700 hover:border-emerald-400"
+						>
+							Email Enterprise Team
+						</a>
+					</div>
+					<div class="w-full lg:w-1/2 order-1 lg:order-2">
+						<img
+							src="assets/img/about_team.webp"
+							alt="Professional modern tech team analyzing complex sports data"
+							class="w-full h-auto rounded-md shadow-2xl border border-slate-800"
+							loading="lazy"
+						/>
+					</div>
+				</div>
+			</section>
+
+			<!-- Final CTA Section -->
+			<section
+				id="cta"
+				class="py-24 px-6 lg:px-12 bg-emerald-900/20 border-t border-emerald-500/20 text-center relative overflow-hidden"
+			>
+				<div class="absolute inset-0 z-0 opacity-10">
+					<img
+						src="assets/img/feature_predictive.webp"
+						alt="Abstract glowing predictive data models"
+						class="w-full h-full object-cover"
+						loading="lazy"
+					/>
+				</div>
+				<div class="relative z-1 max-w-3xl mx-auto">
+					<h2
+						class="font-serif-accent text-3xl md:text-5xl text-white font-bold mb-6 glow-text"
+					>
+						Ready to Transform Your Match Analysis?
+					</h2>
+					<p class="text-lg text-slate-300 mb-10">
+						Join thousands of professionals and analysts making smarter
+						decisions through advanced sports data.
+					</p>
+					<div
+						class="flex flex-col sm:flex-row items-center justify-center gap-4"
+					>
+						<a
+							href="#hero"
+							class="px-8 py-4 rounded-md bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold transition-all glow-border w-full sm:w-auto text-center"
+						>
+							Download app
+						</a>
+						<a
+							href="features.html"
+							class="px-8 py-4 rounded-md bg-slate-950 border border-slate-700 hover:border-emerald-400 text-white font-semibold transition-all w-full sm:w-auto text-center"
+						>
+							Explore Features
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer bordered-top noise-bg">
+			<div class="footer-container">
+				<div class="footer-col brand-col">
+					<div class="brand">
+						<span class="brand-name">ScoreLogic Analytics</span>
+					</div>
+					<p class="tagline">Smarter Decisions Through Advanced Sports Data</p>
+				</div>
+				<div class="footer-col links-col">
+					<h4>Quick Links</h4>
+					<nav class="footer-nav">
+						<a href="index.html">Home</a>
+						<a href="about.html">About</a>
+						<a href="features.html">Features</a>
+						<a href="contact.html">Contact</a>
+					</nav>
+				</div>
+				<div class="footer-col contact-col">
+					<h4>Contact Us</h4>
+					<address>
+						<a
+							href="https://www.google.com/maps/search/?api=1&query=Mumbai%2C%20Maharashtra%2C%20400053%2C%20India"
+							target="_blank"
+							rel="noopener"
+						>
+							Unit 402, TechWeb Centre, New Link Road<br />
+							Oshiwara, Andheri West<br />
+							Mumbai, Maharashtra 400053<br />
+							India
+						</a>
+					</address>
+					<div class="contact-links">
+						<a href="tel:+919820134912">+91 98201 34912</a>
+						<a href="mailto:contact@scorelogicanalytics.com"
+							>contact@scorelogicanalytics.com</a
+						>
+					</div>
+				</div>
+				<div class="footer-col legal-col">
+					<h4>Legal</h4>
+					<nav class="footer-nav">
+						<a href="privacy-policy.html">Privacy Policy</a>
+						<a href="terms-conditions.html">Terms of Service</a>
+					</nav>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>
+					&copy; <span id="current-year"></span> ScoreLogic Analytics. All
+					rights reserved.
+				</p>
+			</div>
+		</footer>
+		<script defer src="assets/js/chrome.js"></script>
+	</body>
+</html>

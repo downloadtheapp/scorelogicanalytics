@@ -1,0 +1,777 @@
+<!doctype html>
+<html data-page="features.html" lang="en" class="scroll-smooth">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Features | ScoreLogic Analytics</title>
+		<meta
+			name="description"
+			content="Detailed platform capabilities including live match insights, predictive analytics, and player tracking."
+		/>
+
+		<!-- Open Graph Tags -->
+		<meta property="og:title" content="Features | ScoreLogic Analytics" />
+		<meta
+			property="og:description"
+			content="Explore advanced sports data analytics, real-time match insights, and predictive models."
+		/>
+		<meta
+			property="og:image"
+			content="https://www.scorelogicanalytics.com/og-features.jpg"
+		/>
+		<meta property="og:type" content="website" />
+
+		<!-- Favicon -->
+		<link
+			rel="icon"
+			href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>"
+		/>
+
+		<!-- Assets -->
+		<script defer src="assets/js/site.js"></script>
+
+		<link rel="stylesheet" href="assets/css/tailwind.css" />
+		<link rel="stylesheet" href="assets/css/chrome.css" />
+		<link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml" />
+	</head>
+	<body
+		class="bg-slate-950 text-slate-300 font-sans antialiased bg-noise flex flex-col min-h-screen selection:bg-emerald-500/30 selection:text-emerald-200"
+	>
+		<header class="site-header bordered-bottom noise-bg">
+			<div class="header-container">
+				<a href="index.html" class="brand">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+						<polygon
+							points="11.5,4 21.5,4 10,12"
+							fill="currentColor"
+							opacity="0.15"
+						/>
+						<polygon
+							points="2.5,20 18.5,20 20,12"
+							fill="currentColor"
+							opacity="0.15"
+						/>
+						<polyline
+							points="5.5,4 2.5,20 18.5,20 20,12 10,12 11.5,4 21.5,4"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linejoin="round"
+							stroke-linecap="round"
+						/>
+						<g fill="currentColor">
+							<circle cx="5.5" cy="4" r="1.75" />
+							<circle cx="2.5" cy="20" r="1.75" />
+							<circle cx="18.5" cy="20" r="1.75" />
+							<circle cx="20" cy="12" r="1.75" />
+							<circle cx="10" cy="12" r="1.75" />
+							<circle cx="11.5" cy="4" r="1.75" />
+							<circle cx="21.5" cy="4" r="1.75" />
+						</g>
+					</svg>
+					<span class="brand-name">ScoreLogic Analytics</span>
+				</a>
+				<div class="header-right">
+					<a href="mailto:contact@scorelogicanalytics.com" class="header-email"
+						>contact@scorelogicanalytics.com</a
+					>
+					<nav class="desktop-nav">
+						<a href="index.html">Home</a>
+						<a href="about.html">About</a>
+						<a href="features.html">Features</a>
+						<a href="contact.html">Contact</a>
+					</nav>
+					<button
+						id="mobile-menu-toggle"
+						class="menu-toggle"
+						aria-label="Open menu"
+					>
+						<svg
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							fill="none"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<path d="M4 6h16M4 12h16M4 18h16"></path>
+						</svg>
+					</button>
+				</div>
+			</div>
+			<div id="mobile-menu" class="mobile-menu-right">
+				<div class="mobile-menu-header">
+					<span class="brand-name">Menu</span>
+					<button
+						id="mobile-menu-close"
+						class="menu-toggle"
+						aria-label="Close menu"
+					>
+						<svg
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							fill="none"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<path d="M18 6L6 18M6 6l12 12"></path>
+						</svg>
+					</button>
+				</div>
+				<nav class="mobile-nav">
+					<a href="index.html">Home</a>
+					<a href="about.html">About</a>
+					<a href="features.html">Features</a>
+					<a href="contact.html">Contact</a>
+				</nav>
+				<div class="mobile-contact">
+					<a href="mailto:contact@scorelogicanalytics.com"
+						>contact@scorelogicanalytics.com</a
+					>
+				</div>
+			</div>
+			<div id="mobile-overlay" class="mobile-overlay"></div>
+		</header>
+
+		<main class="flex-grow">
+			<!-- Hero Section -->
+			<section
+				id="hero"
+				class="relative pt-32 pb-24 lg:pt-48 lg:pb-32 px-6 border-b border-slate-800 overflow-hidden"
+			>
+				<div class="absolute inset-0 z-0 opacity-20 mix-blend-screen">
+					<img
+						src="assets/img/hero_banner_features.webp"
+						class="w-full h-full object-cover"
+						alt="Data background overlay"
+						loading="lazy"
+					/>
+				</div>
+				<div
+					class="absolute inset-0 z-0 bg-gradient-to-b from-slate-950/80 via-slate-950/95 to-slate-950"
+				></div>
+
+				<div class="max-w-7xl mx-auto relative z-1 text-center">
+					<span
+						class="inline-block py-1 px-3 rounded-md bg-slate-900 border border-emerald-500/30 text-emerald-400 text-sm font-medium tracking-wider uppercase mb-6 shadow-[0_0_10px_rgba(16,185,129,0.2)]"
+						>Platform Capabilities</span
+					>
+					<h1
+						class="text-4xl md:text-6xl lg:text-7xl font-serif-accent text-white leading-tight mb-8"
+					>
+						Data-Driven
+						<span class="text-emerald-400 text-glow">Precision.</span><br />
+						Smarter Decisions.
+					</h1>
+					<p
+						class="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto mb-10 leading-relaxed"
+					>
+						Explore the core features of ScoreLogic Analytics. From live match
+						tracking to predictive modeling, our platform equips professionals
+						with unparalleled sports intelligence.
+					</p>
+					<div
+						class="flex flex-col sm:flex-row items-center justify-center gap-4"
+					>
+						<a
+							href="#mobile-access"
+							class="w-full sm:w-auto px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-md transition-all shadow-[0_0_20px_rgba(16,185,129,0.4)] text-center"
+						>
+							Download app
+						</a>
+						<a
+							href="#live-insights"
+							class="w-full sm:w-auto px-8 py-4 bg-slate-900 border border-slate-700 hover:border-emerald-500/50 text-white font-medium rounded-md transition-all text-center"
+						>
+							Explore Features
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<!-- Zigzag 1: Live Match Insights -->
+			<section id="live-insights" class="py-24 lg:py-32 px-6">
+				<div
+					class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 items-center"
+				>
+					<div class="w-full lg:w-1/2 relative group">
+						<div
+							class="absolute -inset-1 bg-gradient-to-r from-emerald-500/20 to-teal-500/20 rounded-md blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"
+						></div>
+						<img
+							src="assets/img/feature_live.webp"
+							class="relative rounded-md border border-slate-800 w-full h-auto object-cover aspect-[4/3] bg-slate-900"
+							alt="Live match tracking interface"
+							loading="lazy"
+						/>
+					</div>
+					<div class="w-full lg:w-1/2 space-y-6">
+						<div class="flex items-center gap-3 text-emerald-400 mb-2">
+							<svg
+								class="w-6 h-6"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<circle cx="12" cy="12" r="10"></circle>
+								<polyline points="12 6 12 12 16 14"></polyline>
+							</svg>
+							<span class="font-medium uppercase tracking-wide text-sm"
+								>Real-Time Telemetry</span
+							>
+						</div>
+						<h2 class="text-3xl lg:text-4xl font-serif-accent text-white">
+							Live Match Insights
+						</h2>
+						<p class="text-slate-400 leading-relaxed text-lg">
+							Monitor every micro-movement on the field as it happens. Our
+							low-latency data pipelines ingest live kinematic coordinates, ball
+							tracking stats, and tactical formations directly into your
+							dashboard.
+						</p>
+						<ul class="space-y-4 pt-4">
+							<li class="flex items-start gap-3">
+								<svg
+									class="w-5 h-5 text-emerald-500 mt-1 shrink-0"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+									<polyline points="22 4 12 14.01 9 11.01"></polyline>
+								</svg>
+								<span class="text-slate-300"
+									>Instant velocity and acceleration tracking.</span
+								>
+							</li>
+							<li class="flex items-start gap-3">
+								<svg
+									class="w-5 h-5 text-emerald-500 mt-1 shrink-0"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+									<polyline points="22 4 12 14.01 9 11.01"></polyline>
+								</svg>
+								<span class="text-slate-300"
+									>Dynamic heatmaps updated by the second.</span
+								>
+							</li>
+							<li class="flex items-start gap-3">
+								<svg
+									class="w-5 h-5 text-emerald-500 mt-1 shrink-0"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+									<polyline points="22 4 12 14.01 9 11.01"></polyline>
+								</svg>
+								<span class="text-slate-300"
+									>Live momentum shifts and possession analytics.</span
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<!-- Zigzag 2: Performance Tracking (Zebra Pattern) -->
+			<section
+				id="performance-tracking"
+				class="py-24 lg:py-32 px-6 bg-slate-900 border-y border-slate-800"
+			>
+				<div
+					class="max-w-7xl mx-auto flex flex-col lg:flex-row-reverse gap-16 items-center"
+				>
+					<div class="w-full lg:w-1/2 relative group">
+						<div
+							class="absolute -inset-1 bg-gradient-to-r from-emerald-500/20 to-teal-500/20 rounded-md blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"
+						></div>
+						<img
+							src="assets/img/dashboard_preview.webp"
+							class="relative rounded-md border border-slate-700 w-full h-auto object-cover aspect-[4/3] bg-slate-800"
+							alt="Player performance dashboard"
+							loading="lazy"
+						/>
+					</div>
+					<div class="w-full lg:w-1/2 space-y-6">
+						<div class="flex items-center gap-3 text-emerald-400 mb-2">
+							<svg
+								class="w-6 h-6"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<path d="M12 20v-6M6 20V10M18 20V4"></path>
+							</svg>
+							<span class="font-medium uppercase tracking-wide text-sm"
+								>Granular Metrics</span
+							>
+						</div>
+						<h2 class="text-3xl lg:text-4xl font-serif-accent text-white">
+							Performance Tracking
+						</h2>
+						<p class="text-slate-400 leading-relaxed text-lg">
+							Go beyond basic statistics. ScoreLogic Analytics isolates
+							individual player metrics over time, analyzing stamina decay, load
+							management, and technical execution under pressure to optimize
+							physical output.
+						</p>
+						<div class="grid grid-cols-2 gap-6 pt-6">
+							<div class="p-4 rounded-md bg-slate-950 border border-slate-800">
+								<div class="text-2xl font-semibold text-white mb-1">99.8%</div>
+								<div class="text-sm text-slate-500">Data Accuracy</div>
+							</div>
+							<div class="p-4 rounded-md bg-slate-950 border border-slate-800">
+								<div class="text-2xl font-semibold text-white mb-1">50+</div>
+								<div class="text-sm text-slate-500">KPIs Tracked</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Zigzag 3: Predictive Analytics -->
+			<section id="predictive-analytics" class="py-24 lg:py-32 px-6">
+				<div
+					class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 items-center"
+				>
+					<div class="w-full lg:w-1/2 relative group">
+						<div
+							class="absolute -inset-1 bg-gradient-to-r from-emerald-500/20 to-teal-500/20 rounded-md blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"
+						></div>
+						<img
+							src="assets/img/feature_predictive.webp"
+							class="relative rounded-md border border-slate-800 w-full h-auto object-cover aspect-[4/3] bg-slate-900"
+							alt="Abstract predictive data models"
+							loading="lazy"
+						/>
+					</div>
+					<div class="w-full lg:w-1/2 space-y-6">
+						<div class="flex items-center gap-3 text-emerald-400 mb-2">
+							<svg
+								class="w-6 h-6"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<path d="M2 12h4l3-9 5 18 3-9h5"></path>
+							</svg>
+							<span class="font-medium uppercase tracking-wide text-sm"
+								>Machine Learning</span
+							>
+						</div>
+						<h2 class="text-3xl lg:text-4xl font-serif-accent text-white">
+							Predictive Analytics
+						</h2>
+						<p class="text-slate-400 leading-relaxed text-lg">
+							Anticipate the flow of the game. Our proprietary AI models analyze
+							historical datasets combined with live match variables to simulate
+							potential outcomes, injury risks, and tactical vulnerabilities.
+						</p>
+						<p class="text-slate-400 leading-relaxed text-lg pb-4">
+							Leverage predictive insights to make proactive substitutions and
+							schematic adjustments before the opposition can react.
+						</p>
+						<a
+							href="#core-features"
+							class="inline-flex items-center text-emerald-400 hover:text-emerald-300 font-medium transition-colors"
+						>
+							View underlying models
+							<svg
+								class="w-4 h-4 ml-2"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<line x1="5" y1="12" x2="19" y2="12"></line>
+								<polyline points="12 5 19 12 12 19"></polyline>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<!-- Feature Grid -->
+			<section
+				id="core-features"
+				class="py-24 px-6 bg-slate-900 border-y border-slate-800"
+			>
+				<div class="max-w-7xl mx-auto">
+					<div class="text-center max-w-3xl mx-auto mb-16">
+						<h2 class="text-3xl lg:text-4xl font-serif-accent text-white mb-6">
+							Comprehensive Toolkit
+						</h2>
+						<p class="text-slate-400 text-lg">
+							Everything you need to aggregate, visualize, and act upon complex
+							sports data within a single, unified ecosystem.
+						</p>
+					</div>
+
+					<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+						<!-- Card 1 -->
+						<div
+							class="p-8 rounded-md bg-slate-950 border border-slate-800 glow-sage flex flex-col h-full"
+						>
+							<div
+								class="w-12 h-12 rounded-md bg-slate-900 border border-slate-700 flex items-center justify-center text-emerald-400 mb-6"
+							>
+								<svg
+									class="w-6 h-6"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+									<circle cx="9" cy="7" r="4"></circle>
+									<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+									<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+								</svg>
+							</div>
+							<h3 class="text-xl font-semibold text-white mb-3">
+								Team & Player Comparisons
+							</h3>
+							<p class="text-slate-400 leading-relaxed mb-6 flex-grow">
+								Benchmarking tools allowing side-by-side analysis of rosters,
+								historical matchups, and positional efficiencies.
+							</p>
+							<img
+								src="assets/img/comparison_ui_block.webp"
+								class="w-full h-32 object-cover rounded-md border border-slate-800 opacity-80"
+								alt="Comparison UI"
+								loading="lazy"
+							/>
+						</div>
+
+						<!-- Card 2 -->
+						<div
+							class="p-8 rounded-md bg-slate-950 border border-slate-800 glow-sage flex flex-col h-full"
+						>
+							<div
+								class="w-12 h-12 rounded-md bg-slate-900 border border-slate-700 flex items-center justify-center text-emerald-400 mb-6"
+							>
+								<svg
+									class="w-6 h-6"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+									<path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+								</svg>
+							</div>
+							<h3 class="text-xl font-semibold text-white mb-3">
+								Trend Reports
+							</h3>
+							<p class="text-slate-400 leading-relaxed mb-6 flex-grow">
+								Automated post-match reports highlighting tactical shifts,
+								fatigue thresholds, and long-term performance trajectories.
+							</p>
+							<img
+								src="assets/img/trend_reports_ui_block.webp"
+								class="w-full h-32 object-cover rounded-md border border-slate-800 opacity-80"
+								alt="Trend report chart"
+								loading="lazy"
+							/>
+						</div>
+
+						<!-- Card 3 -->
+						<div
+							class="p-8 rounded-md bg-slate-950 border border-slate-800 glow-sage flex flex-col h-full"
+						>
+							<div
+								class="w-12 h-12 rounded-md bg-slate-900 border border-slate-700 flex items-center justify-center text-emerald-400 mb-6"
+							>
+								<svg
+									class="w-6 h-6"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+									<polyline points="2 17 12 22 22 17"></polyline>
+									<polyline points="2 12 12 17 22 12"></polyline>
+								</svg>
+							</div>
+							<h3 class="text-xl font-semibold text-white mb-3">
+								Custom Data Export
+							</h3>
+							<p class="text-slate-400 leading-relaxed mb-6 flex-grow">
+								Seamless API integration and CSV/JSON exports for integration
+								into your organization's existing proprietary software.
+							</p>
+							<img
+								src="assets/img/api_export_ui_block.webp"
+								class="w-full h-32 object-cover rounded-md border border-slate-800 opacity-80"
+								alt="API code block"
+								loading="lazy"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Mobile App Section -->
+			<section id="mobile-access" class="py-24 lg:py-32 px-6 overflow-hidden">
+				<div
+					class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 items-center"
+				>
+					<div class="w-full lg:w-1/2 space-y-8 order-2 lg:order-1">
+						<h2 class="text-3xl lg:text-4xl font-serif-accent text-white">
+							Insights in Your Pocket
+						</h2>
+						<p class="text-slate-400 leading-relaxed text-lg">
+							The ScoreLogic Analytics mobile app delivers critical match data
+							directly to the sideline. Engineered for speed and readability,
+							coaching staff can review instant replays paired with overlay
+							telemetry without breaking focus.
+						</p>
+						<div class="flex flex-col sm:flex-row gap-4">
+							<a
+								href="#"
+								class="px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-md transition-all shadow-[0_0_20px_rgba(16,185,129,0.4)] text-center flex items-center justify-center gap-2"
+							>
+								<svg
+									class="w-5 h-5"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+									<polyline points="7 10 12 15 17 10"></polyline>
+									<line x1="12" y1="15" x2="12" y2="3"></line>
+								</svg>
+								Download app
+							</a>
+						</div>
+						<div
+							class="pt-6 border-t border-slate-800 flex items-center gap-6 text-sm text-slate-500"
+						>
+							<span class="flex items-center gap-2">
+								<svg
+									class="w-4 h-4 text-emerald-500"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+									<polyline points="22 4 12 14.01 9 11.01"></polyline>
+								</svg>
+								iOS Compatible
+							</span>
+							<span class="flex items-center gap-2">
+								<svg
+									class="w-4 h-4 text-emerald-500"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+									<polyline points="22 4 12 14.01 9 11.01"></polyline>
+								</svg>
+								Android Ready
+							</span>
+						</div>
+					</div>
+					<div
+						class="w-full lg:w-1/2 relative order-1 lg:order-2 flex justify-center"
+					>
+						<!-- Abstract phone shape mock -->
+						<div
+							class="relative w-64 md:w-80 h-[500px] md:h-[600px] rounded-[2.5rem] border-[8px] border-slate-800 bg-slate-950 shadow-[0_0_50px_rgba(16,185,129,0.15)] overflow-hidden flex items-center justify-center"
+						>
+							<div
+								class="absolute top-0 w-32 h-6 bg-slate-800 rounded-b-xl z-1"
+							></div>
+							<img
+								src="assets/img/mobile_app_dashboard.webp"
+								class="w-full h-full object-cover opacity-90"
+								alt="Mobile app interface"
+								loading="lazy"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Final CTA -->
+			<section
+				id="final-cta"
+				class="py-24 px-6 bg-slate-900 border-t border-slate-800 relative overflow-hidden"
+			>
+				<div
+					class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-3xl h-full blur-[100px] bg-emerald-500/10 rounded-full pointer-events-none"
+				></div>
+				<div class="max-w-4xl mx-auto text-center relative z-1">
+					<h2 class="text-4xl md:text-5xl font-serif-accent text-white mb-6">
+						Ready to Elevate Your Analytics?
+					</h2>
+					<p class="text-xl text-slate-400 mb-10 max-w-2xl mx-auto">
+						Join elite teams and analysts leveraging ScoreLogic to gain a
+						competitive edge. Experience the platform today.
+					</p>
+					<div
+						class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12"
+					>
+						<a
+							href="#mobile-access"
+							class="w-full sm:w-auto px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-md transition-all shadow-[0_0_20px_rgba(16,185,129,0.4)] text-center"
+						>
+							Download app
+						</a>
+						<a
+							href="contact.html"
+							class="w-full sm:w-auto px-8 py-4 bg-slate-800 border border-slate-700 hover:border-emerald-500/50 text-white font-medium rounded-md transition-all text-center"
+						>
+							Contact Sales
+						</a>
+					</div>
+
+					<div
+						class="inline-flex flex-col md:flex-row items-center justify-center gap-6 px-8 py-6 rounded-md bg-slate-950 border border-slate-800 text-slate-400 text-sm"
+					>
+						<div class="flex items-center gap-2">
+							<svg
+								class="w-4 h-4 text-emerald-500"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<path
+									d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+								></path>
+								<polyline points="22,6 12,13 2,6"></polyline>
+							</svg>
+							<a
+								href="mailto:contact@scorelogicanalytics.com"
+								class="hover:text-emerald-400 transition-colors"
+								>contact@scorelogicanalytics.com</a
+							>
+						</div>
+						<div class="hidden md:block w-px h-4 bg-slate-800"></div>
+						<div class="flex items-center gap-2">
+							<svg
+								class="w-4 h-4 text-emerald-500"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<path
+									d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+								></path>
+							</svg>
+							<a
+								href="tel:+919820134912"
+								class="hover:text-emerald-400 transition-colors"
+								>+91 98201 34912</a
+							>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer bordered-top noise-bg">
+			<div class="footer-container">
+				<div class="footer-col brand-col">
+					<div class="brand">
+						<span class="brand-name">ScoreLogic Analytics</span>
+					</div>
+					<p class="tagline">Smarter Decisions Through Advanced Sports Data</p>
+				</div>
+				<div class="footer-col links-col">
+					<h4>Quick Links</h4>
+					<nav class="footer-nav">
+						<a href="index.html">Home</a>
+						<a href="about.html">About</a>
+						<a href="features.html">Features</a>
+						<a href="contact.html">Contact</a>
+					</nav>
+				</div>
+				<div class="footer-col contact-col">
+					<h4>Contact Us</h4>
+					<address>
+						<a
+							href="https://www.google.com/maps/search/?api=1&query=Mumbai%2C%20Maharashtra%2C%20400053%2C%20India"
+							target="_blank"
+							rel="noopener"
+						>
+							Unit 402, TechWeb Centre, New Link Road<br />
+							Oshiwara, Andheri West<br />
+							Mumbai, Maharashtra 400053<br />
+							India
+						</a>
+					</address>
+					<div class="contact-links">
+						<a href="tel:+919820134912">+91 98201 34912</a>
+						<a href="mailto:contact@scorelogicanalytics.com"
+							>contact@scorelogicanalytics.com</a
+						>
+					</div>
+				</div>
+				<div class="footer-col legal-col">
+					<h4>Legal</h4>
+					<nav class="footer-nav">
+						<a href="privacy-policy.html">Privacy Policy</a>
+						<a href="terms-conditions.html">Terms of Service</a>
+					</nav>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>
+					&copy; <span id="current-year"></span> ScoreLogic Analytics. All
+					rights reserved.
+				</p>
+			</div>
+		</footer>
+		<script defer src="assets/js/chrome.js"></script>
+	</body>
+</html>

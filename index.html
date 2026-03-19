@@ -1,0 +1,944 @@
+<!doctype html>
+<html data-page="index.html" lang="en" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>
+			ScoreLogic Analytics | Smarter Decisions Through Advanced Sports Data
+		</title>
+		<meta
+			name="description"
+			content="Main landing page showcasing sports analytics insights, dashboard previews, and key features."
+		/>
+
+		<!-- Open Graph Meta Tags -->
+		<meta
+			property="og:title"
+			content="ScoreLogic Analytics | Advanced Sports Data"
+		/>
+		<meta
+			property="og:description"
+			content="Empower your team with smarter decisions, live metrics, predictive insights, and deep match analysis."
+		/>
+		<meta property="og:image" content="assets/img/hero_banner.webp" />
+		<meta property="og:type" content="website" />
+
+		<!-- Favicon -->
+		<link
+			rel="icon"
+			href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>"
+		/>
+
+		<!-- Styles -->
+		<script defer src="assets/js/site.js"></script>
+		<link rel="stylesheet" href="assets/css/tailwind.css" />
+		<link rel="stylesheet" href="assets/css/chrome.css" />
+		<link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml" />
+	</head>
+	<body class="bg-noise antialiased">
+		<header class="site-header bordered-bottom noise-bg">
+			<div class="header-container">
+				<a href="index.html" class="brand">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+						<polygon
+							points="11.5,4 21.5,4 10,12"
+							fill="currentColor"
+							opacity="0.15"
+						/>
+						<polygon
+							points="2.5,20 18.5,20 20,12"
+							fill="currentColor"
+							opacity="0.15"
+						/>
+						<polyline
+							points="5.5,4 2.5,20 18.5,20 20,12 10,12 11.5,4 21.5,4"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linejoin="round"
+							stroke-linecap="round"
+						/>
+						<g fill="currentColor">
+							<circle cx="5.5" cy="4" r="1.75" />
+							<circle cx="2.5" cy="20" r="1.75" />
+							<circle cx="18.5" cy="20" r="1.75" />
+							<circle cx="20" cy="12" r="1.75" />
+							<circle cx="10" cy="12" r="1.75" />
+							<circle cx="11.5" cy="4" r="1.75" />
+							<circle cx="21.5" cy="4" r="1.75" />
+						</g>
+					</svg>
+					<span class="brand-name">ScoreLogic Analytics</span>
+				</a>
+				<div class="header-right">
+					<a href="mailto:contact@scorelogicanalytics.com" class="header-email"
+						>contact@scorelogicanalytics.com</a
+					>
+					<nav class="desktop-nav">
+						<a href="index.html">Home</a>
+						<a href="about.html">About</a>
+						<a href="features.html">Features</a>
+						<a href="contact.html">Contact</a>
+					</nav>
+					<button
+						id="mobile-menu-toggle"
+						class="menu-toggle"
+						aria-label="Open menu"
+					>
+						<svg
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							fill="none"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<path d="M4 6h16M4 12h16M4 18h16"></path>
+						</svg>
+					</button>
+				</div>
+			</div>
+			<div id="mobile-menu" class="mobile-menu-right">
+				<div class="mobile-menu-header">
+					<span class="brand-name">Menu</span>
+					<button
+						id="mobile-menu-close"
+						class="menu-toggle"
+						aria-label="Close menu"
+					>
+						<svg
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							fill="none"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<path d="M18 6L6 18M6 6l12 12"></path>
+						</svg>
+					</button>
+				</div>
+				<nav class="mobile-nav">
+					<a href="index.html">Home</a>
+					<a href="about.html">About</a>
+					<a href="features.html">Features</a>
+					<a href="contact.html">Contact</a>
+				</nav>
+				<div class="mobile-contact">
+					<a href="mailto:contact@scorelogicanalytics.com"
+						>contact@scorelogicanalytics.com</a
+					>
+				</div>
+			</div>
+			<div id="mobile-overlay" class="mobile-overlay"></div>
+		</header>
+
+		<main class="content-relative">
+			<!-- HERO SECTION -->
+			<section
+				id="hero"
+				class="relative pt-32 pb-24 md:pt-48 md:pb-32 px-6 lg:px-8 overflow-hidden bg-slate-950 flex flex-col items-center text-center"
+			>
+				<!-- Abstract Glowing Nodes background elements -->
+				<div
+					class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-5xl pointer-events-none opacity-20"
+				>
+					<div
+						class="absolute top-1/4 left-1/4 w-64 h-64 bg-emerald-500 rounded-full mix-blend-screen filter blur-[100px]"
+					></div>
+					<div
+						class="absolute bottom-1/4 right-1/4 w-80 h-80 bg-slate-500 rounded-full mix-blend-screen filter blur-[120px]"
+					></div>
+				</div>
+
+				<div class="relative z-1 max-w-4xl mx-auto">
+					<div
+						class="inline-flex items-center gap-2 px-3 py-1 rounded-full glow-border mb-8 bg-slate-900/50"
+					>
+						<span
+							class="flex w-2 h-2 rounded-full bg-emerald-400 animate-pulse"
+						></span>
+						<span
+							class="text-xs font-medium tracking-wide text-emerald-400 uppercase"
+							>Advanced Sports Analytics Platform</span
+						>
+					</div>
+					<h1
+						class="text-4xl md:text-6xl lg:text-7xl font-serif-accent font-bold tracking-tight text-white mb-6 leading-tight"
+					>
+						Smarter Decisions Through
+						<span class="text-emerald-400 text-glow">Advanced Data</span>
+					</h1>
+					<p
+						class="mt-4 text-lg md:text-xl text-slate-300 max-w-2xl mx-auto font-light leading-relaxed mb-10"
+					>
+						Empower your team with live metrics, predictive insights, and deep
+						match analysis. Transform raw sports data into your ultimate
+						competitive advantage.
+					</p>
+					<div
+						class="flex flex-col sm:flex-row items-center justify-center gap-4"
+					>
+						<a
+							href="contact.html#direct-message"
+							class="btn-primary px-8 py-3.5 rounded-md w-full sm:w-auto text-center"
+						>
+							Download app
+						</a>
+						<a
+							href="#core-features"
+							class="btn-secondary px-8 py-3.5 rounded-md w-full sm:w-auto text-center"
+						>
+							Explore Features
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<!-- DASHBOARD PREVIEW SECTION -->
+			<section id="dashboard-preview" class="py-12 bg-slate-950">
+				<div class="max-w-6xl mx-auto px-6 lg:px-8">
+					<div
+						class="relative rounded-md p-2 bg-slate-800/40 glow-border backdrop-blur-sm dashboard-preview-shell"
+					>
+						<div class="absolute top-4 left-4 flex gap-2 z-20">
+							<div class="w-3 h-3 rounded-full bg-slate-600"></div>
+							<div class="w-3 h-3 rounded-full bg-slate-600"></div>
+							<div class="w-3 h-3 rounded-full bg-slate-600"></div>
+						</div>
+						<img
+							src="assets/img/dashboard_preview.webp"
+							alt="ScoreLogic Analytics Dashboard Interface Preview"
+							class="w-full h-auto object-cover rounded-md opacity-90 border border-slate-700/50 shadow-2xl dashboard-preview-image"
+							loading="lazy"
+						/>
+					</div>
+				</div>
+			</section>
+
+			<!-- KEY BENEFITS -->
+			<section
+				id="benefits"
+				class="py-20 bg-slate-900 border-t border-slate-800"
+			>
+				<div class="max-w-7xl mx-auto px-6 lg:px-8">
+					<div class="text-center max-w-3xl mx-auto mb-16">
+						<h2
+							class="text-3xl md:text-4xl font-serif-accent font-bold text-white mb-4"
+						>
+							Unlock Your True Potential
+						</h2>
+						<p class="text-slate-400 text-lg">
+							Our platform bridges the gap between complex raw statistics and
+							actionable field strategies.
+						</p>
+					</div>
+
+					<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+						<!-- Card 1 -->
+						<div
+							class="bg-slate-950 p-8 rounded-md glow-border flex flex-col items-start"
+						>
+							<div
+								class="p-3 bg-slate-800 rounded-md text-emerald-400 mb-6 border border-slate-700"
+							>
+								<svg
+									class="w-6 h-6"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+								</svg>
+							</div>
+							<h3 class="text-xl font-bold text-white mb-3">
+								Live Match Insights
+							</h3>
+							<p class="text-slate-400 leading-relaxed">
+								Access real-time performance tracking metrics directly from the
+								field. Monitor player fatigue, positional data, and tactical
+								shifts as they happen.
+							</p>
+						</div>
+
+						<!-- Card 2 -->
+						<div
+							class="bg-slate-950 p-8 rounded-md glow-border flex flex-col items-start"
+						>
+							<div
+								class="p-3 bg-slate-800 rounded-md text-emerald-400 mb-6 border border-slate-700"
+							>
+								<svg
+									class="w-6 h-6"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+									<path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+								</svg>
+							</div>
+							<h3 class="text-xl font-bold text-white mb-3">
+								Predictive Analytics
+							</h3>
+							<p class="text-slate-400 leading-relaxed">
+								Utilize advanced machine learning models to forecast match
+								outcomes, player injury risks, and strategic optimization
+								pathways.
+							</p>
+						</div>
+
+						<!-- Card 3 -->
+						<div
+							class="bg-slate-950 p-8 rounded-md glow-border flex flex-col items-start"
+						>
+							<div
+								class="p-3 bg-slate-800 rounded-md text-emerald-400 mb-6 border border-slate-700"
+							>
+								<svg
+									class="w-6 h-6"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<line x1="18" y1="20" x2="18" y2="10"></line>
+									<line x1="12" y1="20" x2="12" y2="4"></line>
+									<line x1="6" y1="20" x2="6" y2="14"></line>
+								</svg>
+							</div>
+							<h3 class="text-xl font-bold text-white mb-3">Trend Reports</h3>
+							<p class="text-slate-400 leading-relaxed">
+								Generate comprehensive visualizations and historical comparisons
+								to identify micro-trends in athletic progression and team
+								synergy.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- CORE STATS/FEATURES (ZIGZAG) -->
+			<section id="core-features" class="py-24 bg-slate-950">
+				<div class="max-w-7xl mx-auto px-6 lg:px-8 space-y-24">
+					<!-- Feature 1 -->
+					<div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+						<div class="w-full lg:w-1/2">
+							<div class="relative p-1 glow-border rounded-md bg-slate-900">
+								<img
+									src="assets/img/feature_live.webp"
+									alt="Live Performance Tracking"
+									class="w-full h-auto rounded-md object-cover opacity-80"
+									loading="lazy"
+								/>
+							</div>
+						</div>
+						<div class="w-full lg:w-1/2 space-y-6">
+							<div
+								class="inline-block px-3 py-1 text-xs font-semibold text-emerald-400 bg-emerald-400/10 rounded-full border border-emerald-400/20"
+							>
+								Performance Engine
+							</div>
+							<h2
+								class="text-3xl md:text-4xl font-serif-accent font-bold text-white"
+							>
+								Deep Performance Tracking
+							</h2>
+							<p class="text-slate-400 text-lg leading-relaxed">
+								Go beyond traditional counting stats. ScoreLogic breaks down
+								mechanical efficiency, spatial dominance, and biomechanical load
+								into easily digestible metrics for your coaching staff.
+							</p>
+							<ul class="space-y-3 pt-4">
+								<li class="flex items-center text-slate-300">
+									<svg
+										class="w-5 h-5 text-emerald-400 mr-3"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+									>
+										<polyline points="20 6 9 17 4 12"></polyline>
+									</svg>
+									Spatial mapping and heat zones
+								</li>
+								<li class="flex items-center text-slate-300">
+									<svg
+										class="w-5 h-5 text-emerald-400 mr-3"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+									>
+										<polyline points="20 6 9 17 4 12"></polyline>
+									</svg>
+									Biomechanical load indicators
+								</li>
+								<li class="flex items-center text-slate-300">
+									<svg
+										class="w-5 h-5 text-emerald-400 mr-3"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+									>
+										<polyline points="20 6 9 17 4 12"></polyline>
+									</svg>
+									Real-time velocity and sprint metrics
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Feature 2 -->
+					<div
+						class="flex flex-col lg:flex-row-reverse items-center gap-12 lg:gap-16"
+					>
+						<div class="w-full lg:w-1/2">
+							<div class="relative p-1 glow-border rounded-md bg-slate-900">
+								<img
+									src="assets/img/feature_predictive.webp"
+									alt="Predictive Data Models"
+									class="w-full h-auto rounded-md object-cover opacity-80"
+									loading="lazy"
+								/>
+							</div>
+						</div>
+						<div class="w-full lg:w-1/2 space-y-6">
+							<div
+								class="inline-block px-3 py-1 text-xs font-semibold text-emerald-400 bg-emerald-400/10 rounded-full border border-emerald-400/20"
+							>
+								Machine Learning
+							</div>
+							<h2
+								class="text-3xl md:text-4xl font-serif-accent font-bold text-white"
+							>
+								Advanced Predictive Analytics
+							</h2>
+							<p class="text-slate-400 text-lg leading-relaxed">
+								Anticipate the flow of the game before it happens. Our
+								proprietary algorithms analyze years of historical data against
+								live inputs to provide high-probability tactical adjustments.
+							</p>
+							<ul class="space-y-3 pt-4">
+								<li class="flex items-center text-slate-300">
+									<svg
+										class="w-5 h-5 text-emerald-400 mr-3"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+									>
+										<polyline points="20 6 9 17 4 12"></polyline>
+									</svg>
+									Opponent tendency modeling
+								</li>
+								<li class="flex items-center text-slate-300">
+									<svg
+										class="w-5 h-5 text-emerald-400 mr-3"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+									>
+										<polyline points="20 6 9 17 4 12"></polyline>
+									</svg>
+									Injury prevention forecasts
+								</li>
+								<li class="flex items-center text-slate-300">
+									<svg
+										class="w-5 h-5 text-emerald-400 mr-3"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+									>
+										<polyline points="20 6 9 17 4 12"></polyline>
+									</svg>
+									Dynamic scenario simulations
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- WHY CHOOSE US -->
+			<section
+				id="why-choose-us"
+				class="py-20 bg-slate-900 border-y border-slate-800"
+			>
+				<div class="max-w-7xl mx-auto px-6 lg:px-8">
+					<div class="text-center max-w-2xl mx-auto mb-16">
+						<h2
+							class="text-3xl md:text-4xl font-serif-accent font-bold text-white mb-4"
+						>
+							The Professional Standard
+						</h2>
+						<p class="text-slate-400 text-lg">
+							Engineered for reliability, speed, and absolute accuracy under
+							pressure.
+						</p>
+					</div>
+
+					<div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+						<!-- Stat 1 -->
+						<div
+							class="bg-slate-950 p-6 rounded-md border border-slate-800 text-center"
+						>
+							<div
+								class="text-4xl font-bold text-emerald-400 mb-2 font-serif-accent"
+							>
+								99.9%
+							</div>
+							<div
+								class="text-sm text-slate-400 uppercase tracking-wider font-medium"
+							>
+								System Uptime
+							</div>
+						</div>
+						<!-- Stat 2 -->
+						<div
+							class="bg-slate-950 p-6 rounded-md border border-slate-800 text-center"
+						>
+							<div
+								class="text-4xl font-bold text-emerald-400 mb-2 font-serif-accent"
+							>
+								<0.5s
+							</div>
+							<div
+								class="text-sm text-slate-400 uppercase tracking-wider font-medium"
+							>
+								Data Latency
+							</div>
+						</div>
+						<!-- Stat 3 -->
+						<div
+							class="bg-slate-950 p-6 rounded-md border border-slate-800 text-center"
+						>
+							<div
+								class="text-4xl font-bold text-emerald-400 mb-2 font-serif-accent"
+							>
+								150+
+							</div>
+							<div
+								class="text-sm text-slate-400 uppercase tracking-wider font-medium"
+							>
+								Metrics Tracked
+							</div>
+						</div>
+						<!-- Stat 4 -->
+						<div
+							class="bg-slate-950 p-6 rounded-md border border-slate-800 text-center"
+						>
+							<div
+								class="text-4xl font-bold text-emerald-400 mb-2 font-serif-accent"
+							>
+								24/7
+							</div>
+							<div
+								class="text-sm text-slate-400 uppercase tracking-wider font-medium"
+							>
+								Technical Support
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- FAQ SECTION -->
+			<section id="faq" class="py-20 bg-slate-950">
+				<div class="max-w-4xl mx-auto px-6 lg:px-8">
+					<div class="text-center mb-16">
+						<h2
+							class="text-3xl md:text-4xl font-serif-accent font-bold text-white mb-4"
+						>
+							Frequently Asked Questions
+						</h2>
+					</div>
+
+					<div class="space-y-4">
+						<!-- Q1 -->
+						<details
+							class="group bg-slate-900 border border-slate-800 rounded-md overflow-hidden"
+						>
+							<summary
+								class="flex cursor-pointer items-center justify-between px-6 py-5 text-lg font-medium text-white hover:bg-slate-800/50 transition-colors"
+							>
+								How accurate are the predictive models?
+								<span
+									class="ml-4 flex-shrink-0 text-emerald-400 group-open:-rotate-180 transition-transform"
+								>
+									<svg
+										class="w-5 h-5"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+									>
+										<polyline points="6 9 12 15 18 9"></polyline>
+									</svg>
+								</span>
+							</summary>
+							<div class="px-6 pb-5 text-slate-400">
+								Our machine learning models undergo continuous training on
+								massive historical datasets, maintaining a confidence threshold
+								of over 94% across core tactical and physical load predictions.
+							</div>
+						</details>
+
+						<!-- Q2 -->
+						<details
+							class="group bg-slate-900 border border-slate-800 rounded-md overflow-hidden"
+						>
+							<summary
+								class="flex cursor-pointer items-center justify-between px-6 py-5 text-lg font-medium text-white hover:bg-slate-800/50 transition-colors"
+							>
+								Does ScoreLogic Analytics support minor leagues and academy
+								teams?
+								<span
+									class="ml-4 flex-shrink-0 text-emerald-400 group-open:-rotate-180 transition-transform"
+								>
+									<svg
+										class="w-5 h-5"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+									>
+										<polyline points="6 9 12 15 18 9"></polyline>
+									</svg>
+								</span>
+							</summary>
+							<div class="px-6 pb-5 text-slate-400">
+								Yes, our scalable architecture is designed to accommodate
+								franchises of all sizes, from elite professional tiers down to
+								developmental academies seeking precise metric tracking.
+							</div>
+						</details>
+
+						<!-- Q3 -->
+						<details
+							class="group bg-slate-900 border border-slate-800 rounded-md overflow-hidden"
+						>
+							<summary
+								class="flex cursor-pointer items-center justify-between px-6 py-5 text-lg font-medium text-white hover:bg-slate-800/50 transition-colors"
+							>
+								What hardware is required for live data tracking?
+								<span
+									class="ml-4 flex-shrink-0 text-emerald-400 group-open:-rotate-180 transition-transform"
+								>
+									<svg
+										class="w-5 h-5"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+									>
+										<polyline points="6 9 12 15 18 9"></polyline>
+									</svg>
+								</span>
+							</summary>
+							<div class="px-6 pb-5 text-slate-400">
+								Our platform integrates with most standard wearable optical and
+								GPS hardware used in the industry today via API. We do not
+								require proprietary physical trackers.
+							</div>
+						</details>
+					</div>
+				</div>
+			</section>
+
+			<!-- CONTACT SECTION -->
+			<section
+				id="contact"
+				class="py-20 bg-slate-900 border-t border-slate-800"
+			>
+				<div class="max-w-7xl mx-auto px-6 lg:px-8">
+					<div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+						<!-- Contact Info -->
+						<div class="space-y-8">
+							<div>
+								<h2
+									class="text-3xl font-serif-accent font-bold text-white mb-4"
+								>
+									Get in Touch
+								</h2>
+								<p class="text-slate-400 text-lg">
+									Ready to elevate your organization's analytics capabilities?
+									Contact our team for a personalized demo or technical
+									consultation.
+								</p>
+							</div>
+
+							<div class="space-y-6">
+								<!-- Address -->
+								<div class="flex items-start">
+									<svg
+										class="w-6 h-6 text-emerald-400 mt-1 mr-4"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<path
+											d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+										></path>
+										<circle cx="12" cy="10" r="3"></circle>
+									</svg>
+									<div>
+										<h4 class="text-white font-medium mb-1">Headquarters</h4>
+										<address class="text-slate-400 not-italic leading-relaxed">
+											<a
+												href="https://www.google.com/maps/search/?api=1&query=Mumbai%2C%20Maharashtra%2C%20400053%2C%20India"
+												target="_blank"
+												rel="noopener noreferrer"
+												class="hover:text-emerald-400 transition-colors"
+											>
+												Unit 402, TechWeb Centre, New Link Road<br />
+												Oshiwara, Andheri West<br />
+												Mumbai, Maharashtra 400053<br />
+												India
+											</a>
+										</address>
+									</div>
+								</div>
+
+								<!-- Email -->
+								<div class="flex items-start">
+									<svg
+										class="w-6 h-6 text-emerald-400 mt-1 mr-4"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<path
+											d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+										></path>
+										<polyline points="22,6 12,13 2,6"></polyline>
+									</svg>
+									<div>
+										<h4 class="text-white font-medium mb-1">Email Us</h4>
+										<a
+											href="mailto:contact@scorelogicanalytics.com"
+											class="text-slate-400 hover:text-emerald-400 transition-colors"
+										>
+											contact@scorelogicanalytics.com
+										</a>
+									</div>
+								</div>
+
+								<!-- Phone -->
+								<div class="flex items-start">
+									<svg
+										class="w-6 h-6 text-emerald-400 mt-1 mr-4"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									>
+										<path
+											d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+										></path>
+									</svg>
+									<div>
+										<h4 class="text-white font-medium mb-1">Call Us</h4>
+										<a
+											href="tel:+919820134912"
+											class="text-slate-400 hover:text-emerald-400 transition-colors"
+										>
+											+91 98201 34912
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Contact Form -->
+						<div class="bg-slate-950 p-8 rounded-md glow-border">
+							<form action="thanks.html" method="POST" class="space-y-6">
+								<div>
+									<label
+										for="name"
+										class="block text-sm font-medium text-slate-300 mb-2"
+										>Full Name</label
+									>
+									<input
+										type="text"
+										id="name"
+										name="name"
+										required
+										class="w-full bg-slate-900 border border-slate-700 rounded-md px-4 py-3 text-white focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-colors placeholder-slate-500"
+										placeholder="Enter your name"
+									/>
+								</div>
+								<div>
+									<label
+										for="email"
+										class="block text-sm font-medium text-slate-300 mb-2"
+										>Email Address</label
+									>
+									<input
+										type="email"
+										id="email"
+										name="email"
+										required
+										class="w-full bg-slate-900 border border-slate-700 rounded-md px-4 py-3 text-white focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-colors placeholder-slate-500"
+										placeholder="you@example.com"
+									/>
+								</div>
+								<div>
+									<label
+										for="phone"
+										class="block text-sm font-medium text-slate-300 mb-2"
+										>Phone Number</label
+									>
+									<input
+										type="tel"
+										id="phone"
+										name="phone"
+										class="w-full bg-slate-900 border border-slate-700 rounded-md px-4 py-3 text-white focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-colors placeholder-slate-500"
+										placeholder="Your phone number"
+									/>
+								</div>
+								<div>
+									<label
+										for="message"
+										class="block text-sm font-medium text-slate-300 mb-2"
+										>Message</label
+									>
+									<textarea
+										id="message"
+										name="message"
+										rows="4"
+										required
+										class="w-full bg-slate-900 border border-slate-700 rounded-md px-4 py-3 text-white focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-colors placeholder-slate-500"
+										placeholder="How can we help your team?"
+									></textarea>
+								</div>
+
+								<div class="form-privacy">
+									<label class="privacy-label">
+										<input type="checkbox" name="privacyAccepted" required />
+										<span
+											>I agree to the
+											<a
+												href="privacy-policy.html"
+												target="_blank"
+												rel="noopener"
+												>Privacy Policy</a
+											>.</span
+										>
+									</label>
+								</div>
+								<button
+									type="submit"
+									class="w-full btn-primary py-3.5 rounded-md"
+								>
+									Send Message
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- FINAL CTA -->
+			<section
+				id="final-cta"
+				class="py-24 bg-slate-950 relative overflow-hidden"
+			>
+				<div
+					class="absolute inset-0 bg-emerald-900/10 pointer-events-none"
+				></div>
+				<div class="max-w-4xl mx-auto px-6 lg:px-8 text-center relative z-1">
+					<h2
+						class="text-4xl md:text-5xl font-serif-accent font-bold text-white mb-6"
+					>
+						Ready to Elevate Your Game?
+					</h2>
+					<p class="text-xl text-slate-300 mb-10">
+						Join top-tier organizations utilizing ScoreLogic Analytics to
+						redefine their strategic advantage.
+					</p>
+					<a
+						href="contact.html#direct-message"
+						class="inline-block btn-primary px-10 py-4 rounded-md text-lg"
+					>
+						Download app
+					</a>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer bordered-top noise-bg">
+			<div class="footer-container">
+				<div class="footer-col brand-col">
+					<div class="brand">
+						<span class="brand-name">ScoreLogic Analytics</span>
+					</div>
+					<p class="tagline">Smarter Decisions Through Advanced Sports Data</p>
+				</div>
+				<div class="footer-col links-col">
+					<h4>Quick Links</h4>
+					<nav class="footer-nav">
+						<a href="index.html">Home</a>
+						<a href="about.html">About</a>
+						<a href="features.html">Features</a>
+						<a href="contact.html">Contact</a>
+					</nav>
+				</div>
+				<div class="footer-col contact-col">
+					<h4>Contact Us</h4>
+					<address>
+						<a
+							href="https://www.google.com/maps/search/?api=1&query=Mumbai%2C%20Maharashtra%2C%20400053%2C%20India"
+							target="_blank"
+							rel="noopener"
+						>
+							Unit 402, TechWeb Centre, New Link Road<br />
+							Oshiwara, Andheri West<br />
+							Mumbai, Maharashtra 400053<br />
+							India
+						</a>
+					</address>
+					<div class="contact-links">
+						<a href="tel:+919820134912">+91 98201 34912</a>
+						<a href="mailto:contact@scorelogicanalytics.com"
+							>contact@scorelogicanalytics.com</a
+						>
+					</div>
+				</div>
+				<div class="footer-col legal-col">
+					<h4>Legal</h4>
+					<nav class="footer-nav">
+						<a href="privacy-policy.html">Privacy Policy</a>
+						<a href="terms-conditions.html">Terms of Service</a>
+					</nav>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>
+					&copy; <span id="current-year"></span> ScoreLogic Analytics. All
+					rights reserved.
+				</p>
+			</div>
+		</footer>
+		<script defer src="assets/js/chrome.js"></script>
+	</body>
+</html>

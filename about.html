@@ -1,0 +1,522 @@
+<!doctype html>
+<html data-page="about.html" lang="en" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>About Us | ScoreLogic Analytics</title>
+		<meta
+			name="description"
+			content="Discover the mission and story behind ScoreLogic Analytics. Learn how our technology philosophy is transforming sports data and performance tracking in India."
+		/>
+		<meta property="og:title" content="About Us | ScoreLogic Analytics" />
+		<meta
+			property="og:description"
+			content="Discover the mission and story behind ScoreLogic Analytics. Learn how our technology philosophy is transforming sports data and performance tracking in India."
+		/>
+		<meta property="og:image" content="assets/img/og_about.jpg" />
+		<meta property="og:type" content="website" />
+		<link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml" />
+		<script defer src="assets/js/site.js"></script>
+
+		<link rel="stylesheet" href="assets/css/tailwind.css" />
+		<link rel="stylesheet" href="assets/css/chrome.css" />
+		<link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml" />
+	</head>
+	<body
+		class="antialiased selection:bg-lime-500 selection:text-slate-900 flex flex-col min-h-screen"
+	>
+		<header class="site-header bordered-bottom noise-bg">
+			<div class="header-container">
+				<a href="index.html" class="brand">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+						<polygon
+							points="11.5,4 21.5,4 10,12"
+							fill="currentColor"
+							opacity="0.15"
+						/>
+						<polygon
+							points="2.5,20 18.5,20 20,12"
+							fill="currentColor"
+							opacity="0.15"
+						/>
+						<polyline
+							points="5.5,4 2.5,20 18.5,20 20,12 10,12 11.5,4 21.5,4"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linejoin="round"
+							stroke-linecap="round"
+						/>
+						<g fill="currentColor">
+							<circle cx="5.5" cy="4" r="1.75" />
+							<circle cx="2.5" cy="20" r="1.75" />
+							<circle cx="18.5" cy="20" r="1.75" />
+							<circle cx="20" cy="12" r="1.75" />
+							<circle cx="10" cy="12" r="1.75" />
+							<circle cx="11.5" cy="4" r="1.75" />
+							<circle cx="21.5" cy="4" r="1.75" />
+						</g>
+					</svg>
+					<span class="brand-name">ScoreLogic Analytics</span>
+				</a>
+				<div class="header-right">
+					<a href="mailto:contact@scorelogicanalytics.com" class="header-email"
+						>contact@scorelogicanalytics.com</a
+					>
+					<nav class="desktop-nav">
+						<a href="index.html">Home</a>
+						<a href="about.html">About</a>
+						<a href="features.html">Features</a>
+						<a href="contact.html">Contact</a>
+					</nav>
+					<button
+						id="mobile-menu-toggle"
+						class="menu-toggle"
+						aria-label="Open menu"
+					>
+						<svg
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							fill="none"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<path d="M4 6h16M4 12h16M4 18h16"></path>
+						</svg>
+					</button>
+				</div>
+			</div>
+			<div id="mobile-menu" class="mobile-menu-right">
+				<div class="mobile-menu-header">
+					<span class="brand-name">Menu</span>
+					<button
+						id="mobile-menu-close"
+						class="menu-toggle"
+						aria-label="Close menu"
+					>
+						<svg
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							fill="none"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<path d="M18 6L6 18M6 6l12 12"></path>
+						</svg>
+					</button>
+				</div>
+				<nav class="mobile-nav">
+					<a href="index.html">Home</a>
+					<a href="about.html">About</a>
+					<a href="features.html">Features</a>
+					<a href="contact.html">Contact</a>
+				</nav>
+				<div class="mobile-contact">
+					<a href="mailto:contact@scorelogicanalytics.com"
+						>contact@scorelogicanalytics.com</a
+					>
+				</div>
+			</div>
+			<div id="mobile-overlay" class="mobile-overlay"></div>
+		</header>
+
+		<main class="flex-grow">
+			<!-- Hero Section -->
+			<section
+				id="hero"
+				class="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden"
+			>
+				<div class="absolute inset-0 z-0">
+					<img
+						src="assets/img/about_hero_abstract_data.webp"
+						alt="Abstract data visualization"
+						class="w-full h-full object-cover opacity-20"
+						loading="lazy"
+					/>
+					<div
+						class="absolute inset-0 bg-gradient-to-b from-slate-900/50 to-slate-900"
+					></div>
+				</div>
+				<div class="container mx-auto px-6 relative z-1">
+					<div class="max-w-3xl">
+						<h1 class="text-5xl md:text-6xl font-bold mb-6 text-white">
+							Decoding the <span class="text-accent">DNA of Victory.</span>
+						</h1>
+						<p
+							class="text-xl md:text-2xl text-slate-300 mb-10 leading-relaxed font-light"
+						>
+							ScoreLogic Analytics was founded on a singular belief: the margin
+							between winning and losing is hidden within the data. We build
+							technology to uncover it.
+						</p>
+						<div class="flex flex-wrap gap-4">
+							<a
+								href="#mission"
+								class="bg-accent text-slate-900 px-8 py-3 rounded-md font-semibold hover:bg-lime-400 transition-all glow-accent"
+							>
+								Our Mission
+							</a>
+							<a
+								href="#contact"
+								class="bg-slate-800 text-white px-8 py-3 rounded-md font-semibold border border-slate-700 hover:border-lime-500 hover:text-lime-500 transition-all"
+							>
+								Get in Touch
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Mission Section (Zigzag 1) -->
+			<section
+				id="mission"
+				class="py-20 md:py-28 border-t border-slate-800/50 bg-slate-900/50"
+			>
+				<div class="container mx-auto px-6">
+					<div class="flex flex-col md:flex-row items-center gap-12 lg:gap-20">
+						<div class="w-full md:w-1/2 order-2 md:order-1">
+							<div class="relative rounded-md overflow-hidden card-surface p-2">
+								<img
+									src="assets/img/about_mission_dashboard.webp"
+									alt="Sports data dashboard"
+									class="w-full h-auto rounded-md shadow-2xl opacity-80"
+									loading="lazy"
+								/>
+								<div
+									class="absolute inset-0 border border-lime-500/20 rounded-md m-2 pointer-events-none"
+								></div>
+							</div>
+						</div>
+						<div class="w-full md:w-1/2 order-1 md:order-2">
+							<div
+								class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800 border border-slate-700 mb-6"
+							>
+								<div class="w-2 h-2 rounded-full bg-accent"></div>
+								<span
+									class="text-sm font-medium tracking-wide uppercase text-slate-300"
+									>Our Mission</span
+								>
+							</div>
+							<h2 class="text-3xl md:text-4xl font-bold mb-6 text-white">
+								Empowering Decisions Through Clarity
+							</h2>
+							<p class="text-slate-400 mb-6 leading-relaxed text-lg">
+								In modern sports, instinct alone is no longer enough. Our
+								mission is to democratize elite-level performance tracking,
+								providing teams and analysts in India and beyond with the tools
+								required to dissect every play, metric, and variable.
+							</p>
+							<p class="text-slate-400 leading-relaxed text-lg">
+								We strip away the noise from raw statistics, transforming them
+								into clear, actionable insights through a clean, premium
+								dashboard environment designed for absolute focus.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Story Section (Zigzag 2) -->
+			<section id="story" class="py-20 md:py-28">
+				<div class="container mx-auto px-6">
+					<div class="flex flex-col md:flex-row items-center gap-12 lg:gap-20">
+						<div class="w-full md:w-1/2">
+							<div
+								class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800 border border-slate-700 mb-6"
+							>
+								<div class="w-2 h-2 rounded-full bg-accent"></div>
+								<span
+									class="text-sm font-medium tracking-wide uppercase text-slate-300"
+									>The Origin</span
+								>
+							</div>
+							<h2 class="text-3xl md:text-4xl font-bold mb-6 text-white">
+								Born from the Need for Precision
+							</h2>
+							<p class="text-slate-400 mb-6 leading-relaxed text-lg">
+								ScoreLogic Analytics began in Mumbai when a group of data
+								scientists and sports technologists realized the gap between raw
+								match data and strategic execution. Existing tools were either
+								too fragmented or designed for superficial engagement rather
+								than deep analysis.
+							</p>
+							<p class="text-slate-400 leading-relaxed text-lg">
+								We engineered our platform from the ground up to handle massive
+								data lakes of live player metrics, ensuring high-contrast
+								readability, rapid refresh rates, and an interface that respects
+								the serious nature of professional sports tech.
+							</p>
+						</div>
+						<div class="w-full md:w-1/2">
+							<div class="relative rounded-md overflow-hidden card-surface p-2">
+								<img
+									src="assets/img/about_origin_tech.webp"
+									alt="Tech team analyzing data"
+									class="w-full h-auto rounded-md shadow-2xl opacity-80"
+									loading="lazy"
+								/>
+								<div
+									class="absolute inset-0 border border-lime-500/20 rounded-md m-2 pointer-events-none"
+								></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Philosophy Grid -->
+			<section
+				id="philosophy"
+				class="py-20 md:py-28 border-t border-slate-800/50 bg-slate-900/50"
+			>
+				<div class="container mx-auto px-6">
+					<div class="text-center max-w-2xl mx-auto mb-16">
+						<h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">
+							Technology Philosophy
+						</h2>
+						<p class="text-slate-400 text-lg">
+							The core principles that govern how we build, scale, and deliver
+							sports analytics to our users.
+						</p>
+					</div>
+
+					<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+						<!-- Card 1 -->
+						<div
+							class="card-surface rounded-md p-8 hover-glow transition-all duration-300 flex flex-col items-start group"
+						>
+							<div
+								class="w-12 h-12 rounded-md bg-slate-800 border border-slate-700 flex items-center justify-center mb-6 group-hover:border-lime-500 transition-colors"
+							>
+								<svg
+									class="w-6 h-6 text-lime-500"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+								</svg>
+							</div>
+							<h3 class="text-xl font-bold text-white mb-3">Live Precision</h3>
+							<p class="text-slate-400 leading-relaxed">
+								Latency is the enemy of insight. Our architecture is optimized
+								for real-time telemetry, ensuring you see the game as it
+								happens, not seconds later.
+							</p>
+						</div>
+
+						<!-- Card 2 -->
+						<div
+							class="card-surface rounded-md p-8 hover-glow transition-all duration-300 flex flex-col items-start group"
+						>
+							<div
+								class="w-12 h-12 rounded-md bg-slate-800 border border-slate-700 flex items-center justify-center mb-6 group-hover:border-lime-500 transition-colors"
+							>
+								<svg
+									class="w-6 h-6 text-lime-500"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+									<path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+								</svg>
+							</div>
+							<h3 class="text-xl font-bold text-white mb-3">
+								Absolute Clarity
+							</h3>
+							<p class="text-slate-400 leading-relaxed">
+								A dark dashboard isn't just an aesthetic choice; it reduces eye
+								strain during prolonged analysis and pushes critical data points
+								to the forefront.
+							</p>
+						</div>
+
+						<!-- Card 3 -->
+						<div
+							class="card-surface rounded-md p-8 hover-glow transition-all duration-300 flex flex-col items-start group"
+						>
+							<div
+								class="w-12 h-12 rounded-md bg-slate-800 border border-slate-700 flex items-center justify-center mb-6 group-hover:border-lime-500 transition-colors"
+							>
+								<svg
+									class="w-6 h-6 text-lime-500"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<circle cx="12" cy="12" r="10"></circle>
+									<line x1="12" y1="16" x2="12" y2="12"></line>
+									<line x1="12" y1="8" x2="12.01" y2="8"></line>
+								</svg>
+							</div>
+							<h3 class="text-xl font-bold text-white mb-3">Predictive Edge</h3>
+							<p class="text-slate-400 leading-relaxed">
+								Beyond historical stats, we utilize advanced modeling to map out
+								probable outcomes, helping strategists anticipate rather than
+								react.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Stats Row -->
+			<section id="stats" class="py-16 border-t border-slate-800">
+				<div class="container mx-auto px-6">
+					<div
+						class="grid grid-cols-2 md:grid-cols-4 gap-8 divide-x divide-slate-800 text-center"
+					>
+						<div class="px-4">
+							<div
+								class="text-4xl md:text-5xl font-bold text-white mb-2 font-serif"
+							>
+								1.2<span class="text-accent text-3xl">B+</span>
+							</div>
+							<div class="text-slate-500 text-sm tracking-wider uppercase">
+								Data Points Processed
+							</div>
+						</div>
+						<div class="px-4">
+							<div
+								class="text-4xl md:text-5xl font-bold text-white mb-2 font-serif"
+							>
+								40<span class="text-accent text-3xl">ms</span>
+							</div>
+							<div class="text-slate-500 text-sm tracking-wider uppercase">
+								Average Latency
+							</div>
+						</div>
+						<div class="px-4">
+							<div
+								class="text-4xl md:text-5xl font-bold text-white mb-2 font-serif"
+							>
+								99.9<span class="text-accent text-3xl">%</span>
+							</div>
+							<div class="text-slate-500 text-sm tracking-wider uppercase">
+								Uptime Guarantee
+							</div>
+						</div>
+						<div class="px-4">
+							<div
+								class="text-4xl md:text-5xl font-bold text-white mb-2 font-serif"
+							>
+								15<span class="text-accent text-3xl">+</span>
+							</div>
+							<div class="text-slate-500 text-sm tracking-wider uppercase">
+								Sports Covered
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- CTA / Contact snippet -->
+			<section
+				id="contact"
+				class="py-20 md:py-28 border-t border-slate-800/50 relative overflow-hidden"
+			>
+				<div class="absolute inset-0 z-0">
+					<div
+						class="absolute right-0 top-0 w-1/2 h-full bg-lime-500/5 blur-[120px] rounded-full pointer-events-none"
+					></div>
+				</div>
+				<div class="container mx-auto px-6 relative z-1">
+					<div
+						class="card-surface rounded-md p-10 md:p-16 text-center max-w-4xl mx-auto border border-slate-700 hover:border-lime-500/50 transition-colors"
+					>
+						<h2 class="text-3xl md:text-4xl font-bold mb-6 text-white">
+							Ready to elevate your analytics?
+						</h2>
+						<p class="text-slate-400 text-lg mb-10 max-w-2xl mx-auto">
+							Join the growing number of professionals relying on ScoreLogic
+							Analytics for their core decision-making architecture.
+						</p>
+						<div
+							class="flex flex-col sm:flex-row items-center justify-center gap-4"
+						>
+							<a
+								href="index.html"
+								class="bg-accent text-slate-900 px-8 py-3 rounded-md font-semibold hover:bg-lime-400 transition-all w-full sm:w-auto glow-accent"
+							>
+								Explore Features
+							</a>
+							<a
+								href="contact.html"
+								class="bg-slate-800 text-white px-8 py-3 rounded-md font-semibold border border-slate-700 hover:border-lime-500 hover:text-lime-500 transition-all w-full sm:w-auto"
+							>
+								Contact Us
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer bordered-top noise-bg">
+			<div class="footer-container">
+				<div class="footer-col brand-col">
+					<div class="brand">
+						<span class="brand-name">ScoreLogic Analytics</span>
+					</div>
+					<p class="tagline">Smarter Decisions Through Advanced Sports Data</p>
+				</div>
+				<div class="footer-col links-col">
+					<h4>Quick Links</h4>
+					<nav class="footer-nav">
+						<a href="index.html">Home</a>
+						<a href="about.html">About</a>
+						<a href="features.html">Features</a>
+						<a href="contact.html">Contact</a>
+					</nav>
+				</div>
+				<div class="footer-col contact-col">
+					<h4>Contact Us</h4>
+					<address>
+						<a
+							href="https://www.google.com/maps/search/?api=1&query=Mumbai%2C%20Maharashtra%2C%20400053%2C%20India"
+							target="_blank"
+							rel="noopener"
+						>
+							Unit 402, TechWeb Centre, New Link Road<br />
+							Oshiwara, Andheri West<br />
+							Mumbai, Maharashtra 400053<br />
+							India
+						</a>
+					</address>
+					<div class="contact-links">
+						<a href="tel:+919820134912">+91 98201 34912</a>
+						<a href="mailto:contact@scorelogicanalytics.com"
+							>contact@scorelogicanalytics.com</a
+						>
+					</div>
+				</div>
+				<div class="footer-col legal-col">
+					<h4>Legal</h4>
+					<nav class="footer-nav">
+						<a href="privacy-policy.html">Privacy Policy</a>
+						<a href="terms-conditions.html">Terms of Service</a>
+					</nav>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>
+					&copy; <span id="current-year"></span> ScoreLogic Analytics. All
+					rights reserved.
+				</p>
+			</div>
+		</footer>
+		<script defer src="assets/js/chrome.js"></script>
+	</body>
+</html>
